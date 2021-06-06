@@ -13,8 +13,9 @@ main{
     padding: 2em 1em 1em 1em;
 }
 i{
+    cursor: pointer;
 font-size: 2em;}
-h1{margin-left: 40%;}
+header h1{margin-left: 43%;}
 #search{margin-left: auto;}
 main{margin: 1em}
 
@@ -40,6 +41,15 @@ margin-top: 4px;}
     margin-top: 3px;
     font-weight: 700;
 }
+#inicio{
+    margin: 2em 0em;
+    text-align: center;
+}
+#inicio p{
+    font-size: 1.1em;
+    margin: 1.5em 1em 1.5em 7%;
+    color: rgba(66, 66, 66, 0.568);
+}
 #conteudo{margin-top: 1em;
 display: flex;
 flex-direction: column;
@@ -48,18 +58,22 @@ text-align: justify;}
 h1,h2{
     font-family: 'Times New Roman', Times, serif;}
 #conteudo h1{
-    text-align: start;
-    font-size:2em;
-    margin-bottom: 1em;
-    margin-right: 20%;
-}
-#escritor{}
-img{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    font-size:2em;
+    margin-bottom: 1em;
+    margin-right: 30%;
+}
+img{
     width: 100%;
     max-height: 400px;
-    margin: 1em 0;
+    margin: 1.3em 0;
     max-width: 700px;
+}
+h2{margin: 1em;}
+p{
+    max-width: 500px;
+}
+@media screen and (max-width:700px) {
+    header h1{margin-left: 30%;}   
 }
